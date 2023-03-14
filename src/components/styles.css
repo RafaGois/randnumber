@@ -1,0 +1,92 @@
+.app-header{
+    height: 8vh;
+    width: 100%;
+  
+    background-color: #61dafb;
+  
+    /* coluna */
+    align-items: center;
+    /*linha*/
+    justify-content: flex-start;
+    display: flex;
+  }
+  
+  h2 {
+    margin: 0 24px;
+    color: #fff;
+  }
+  .App-body {
+    background-color: #fff;
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .destaque {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .txtInfo {
+    font-size: 18px;
+  }
+  
+  footer {
+    background-color: aliceblue;
+    height: 6vh;
+  
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(121, 120, 120);
+  }
+  
+  p {
+    color: black;
+    text-align: center;
+  }
+
+  .bg-vermelho {
+    background-color: rgba(255, 0, 0, 0.274);
+
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .bg-azul {
+    background-color: rgba(0, 0, 255, 0.253);
+
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button{
+    height: 50px;
+    width: 130px;
+  
+    background-color: #61dafb;
+    border-width: 0px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  button:hover{
+    background-color: #04aedd;
+  }
+  
